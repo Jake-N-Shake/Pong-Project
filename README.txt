@@ -3,13 +3,13 @@ Contact Info
 
 Group Members & Email Addresses:
 
-    Person 1, person1@uky.edu
-    Person 2, person2@uky.edu
+    Jacob Dohoney-Pilling, jrdo235@uky.edu
+    Brett Hoskins, xbho222@uky.edu
 
 Versioning
 ==========
 
-Github Link: 
+Github Link: https://github.com/Jake-N-Shake/Pong-Project/tree/main
 
 General Info
 ============
@@ -22,8 +22,9 @@ Run the following line to install the required libraries for this project:
 
 `pip3 install -r requirements.txt`
 
+In pongServer.py, change the variable "serverIP" around line 63 to the IP address of the computer you are using as the server host.
+
 Known Bugs
 ==========
-- The server doesn't work because the logic isn't yet written.
-- The client doesn't speak to the server
+- If both players are in the game after the match has finished, and one leaves and the other trys to play again by pressing "Y", errors will occur and you will have to shut down the program yourself.
 
